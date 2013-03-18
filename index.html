@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/svgweb/svg.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="/js/jquery-ui-1.10.2.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript">
+    
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img class="float_left header-logo" src="/img/company_logo.gif">
+        <h1 class="float_right">{{ Title }}</h1>
+        <div class="clear"></div>
+      </div>
+      <div id="content">
+        <div class="subhead">
+          <a class="subhead-link" href="#">ALL PL'S</a>
+          <a class="subhead-link" href="#">SETTINGS</a>
+          <a class="subhead-link" href="#">REPORTS</a>
+        </div>
+        <object data="/img/subhead-45.svg" type="image/svg+xml" class="subhead-45"></object>
+        <div class="clear"></div>
+        {{ Content }}
+      </div>
+      <div id="footer">
+        <div class="subhead">
+          <a class="subhead-link" href="#">DETAILS</a>
+          <a class="subhead-link" href="#">DISCUSSION</a>
+          <a class="subhead-link" href="#">ADMIN</a>
+        </div>
+        <object data="/img/subhead-45.svg" type="image/svg+xml" class="subhead-45"></object>
+        <div class="clear"></div>
+        {{ Footer }}
+      </div>
+    </div>
+  </body>
+</html>
